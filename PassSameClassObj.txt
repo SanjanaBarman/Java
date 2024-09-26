@@ -1,0 +1,13 @@
+class MyClass
+{
+	int a;
+	boolean myMethod(MyClass ob)
+	{
+		if(a==ob.a)
+			return true;
+		else
+			return false;
+	}
+}
+
+class PassSameClassObj
